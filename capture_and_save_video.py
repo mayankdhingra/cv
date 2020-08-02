@@ -5,7 +5,6 @@ cap = cv2.VideoCapture(0)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-#writer = cv2.VideoWriter('mysupervideo.mp4',cv2.VideoWriter_fourcc(*'mp4v'),25(width,height)))
 writer = cv2.VideoWriter('mysupervideo.mp4',cv2.VideoWriter_fourcc(*'mp4v'),
                          25,(width,height))
 
